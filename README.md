@@ -5,7 +5,7 @@
 
 Having spent seven years in operations watching businesses make decisions from gut feeling when the data was sitting right there.
 
-This project is my answer to one question a business owner asked me during a conversation: *"After all your analysis - what does poor service actually cost a business?"*
+This project is my answer to one question a business owner asked me during a conversation: *"After all your analysis, what does poor service actually cost a business?"*
 
 The answer, built across Python, SQL, Tableau, and Excel, is **£6.05 million in customer lifetime value sitting at active churn risk** and a roadmap for what to do about it.
 

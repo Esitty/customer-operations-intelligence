@@ -31,7 +31,7 @@ Every finding in this project follows a four-step analytical framework:
 Before the methodology, here is what the data actually says.
 
 **The business has a service crisis, not a service problem.**
-An SLA breach rate of 89.4% means nearly nine in ten customer tickets are not resolved within the agreed timeframe. This is not a dip - it is the default experience.
+An SLA breach rate of 89.4% means nearly nine in ten customer tickets are not resolved within the agreed timeframe. This is not a dip, it is the default experience.
 
 **The cost is quantifiable.**
 £6.05 million in customer lifetime value sits with customers who have experienced repeated SLA failures and report satisfaction scores below 2.5 out of 5. At a conservative 20% churn rate among this group, that is £1.21 million in lost lifetime value. At 30%, £1.72 million.

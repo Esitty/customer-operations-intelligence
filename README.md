@@ -69,7 +69,7 @@ customer-operations-intelligence/
 └── README.md
 ```
 
-📖 [Data Dictionary](notebooks/data_dictionary.md) — full column definitions, business logic, and table relationships
+📖 [Data Dictionary](data_dictionary.md) — full column definitions, business logic, and table relationships
 ---
 
 ## The Data

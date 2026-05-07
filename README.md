@@ -153,11 +153,11 @@ The queries are organised across four analytical phases: operational performance
 ---
 ## SQL Query Results
 
-![SLA Breach Rate by Location](notebooks/sql_results/1_sla_breach.png)
-![Revenue by Customer Segment](notebooks/sql_results/2_revenue_segment.png)
-![CLV at Risk by Segment](notebooks/sql_results/3_clv_risk_by_segment.png)
-![Cost of Inaction](notebooks/sql_results/4_cost_of_inaction.png)
-![Seasonal Revenue](notebooks/sql_results/5_seasonal_revenue.png) 
+![SLA Breach Rate by Location](sql_results/1_sla_breach.png)
+![Revenue by Customer Segment](sql_results/2_revenue_segment.png)
+![CLV at Risk by Segment](sql_results/3_clv_risk_by_segment.png)
+![Cost of Inaction](sql_results/4_cost_of_inaction.png)
+![Seasonal Revenue](sql_results/5_seasonal_revenue.png) 
 
 ---
 ## The Dashboard

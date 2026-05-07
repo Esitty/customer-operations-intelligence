@@ -190,6 +190,8 @@ A four-tab Excel workbook designed to be opened in a management meeting (non-tec
 
 ## How to Run This Project
 
+> **Note on large files:** `transactions_raw.csv` and `transactions_clean.csv` are not included in this repository due to GitHub's 100MB file size limit. Both files are generated automatically by running Notebooks 01 and 02 using the UCI Online Retail II dataset as the source. Download the dataset from [archive.ics.uci.edu](https://archive.ics.uci.edu/dataset/502/online+retail+ii) and place it in the `notebooks/` folder before running.
+
 **Requirements:**
 - Python 3.10+ with pandas, numpy, matplotlib, pymysql, sqlalchemy
 - Jupyter Notebook

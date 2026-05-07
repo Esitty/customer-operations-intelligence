@@ -103,22 +103,22 @@ This combination mirrors how real BI teams work. A data engineer generates and m
 
 ## The Six Notebooks — What Each One Does
 
-**Notebook 01 — Data Generation**  
+**Notebook 01 - Data Generation**  
 Loads the UCI dataset, profiles it raw, and generates three synthetic tables with realistic patterns built in: SLA breaches clustered at specific locations, seasonal complaint spikes, corporate customers with higher CLV and more demanding expectations.
 
-**Notebook 02 — Data Cleaning**  
+**Notebook 02 - Data Cleaning**  
 Takes four messy tables and produces four clean ones. Every cleaning decision is documented with a reason: what was dropped, what was imputed, what was standardised and why. Produces a data quality report showing before and after for each table.
 
-**Notebook 03 — Exploratory Analysis**  
+**Notebook 03 - Exploratory Analysis**  
 Six key findings with charts: revenue seasonality, geographic concentration, segment CLV distribution, ticket patterns by category, seasonal ticket spikes, and location-level SLA performance. Every finding follows the four-step framework.
 
-**Notebook 04 — Customer Experience Analysis**  
+**Notebook 04 - Customer Experience Analysis**  
 Connects operational failures to customer value. Quantifies the CLV at risk, identifies 1,918 churn-risk customers, builds a customer risk profile with tiers, and surfaces the CSAT non-response signal, the finding that the real picture is probably worse than the data shows.
 
-**Notebook 05 — Business Implications**  
+**Notebook 05 - Business Implications**  
 Translates findings into money. Churn scenario modelling at 10%, 20%, 30%, and 50% churn rates. Q4 revenue at risk. Corporate segment financial exposure. A prioritised action plan with the cost of inaction attached to each item.
 
-**Notebook 06 — Market Context**  
+**Notebook 06 - Market Context**  
 Benchmarks internal performance against German e-commerce and European service industry standards. Four benchmarks: CSAT, resolution time, consumer expectations, and geographic concentration. The conclusion - this is not marginal underperformance. It is a service crisis by market standards.
 
 ---
@@ -151,7 +151,15 @@ ORDER BY churn_rate;
 The queries are organised across four analytical phases: operational performance, customer analytics, business implications, and market context, matching the notebook structure exactly.
 
 ---
+## SQL Query Results
 
+![SLA Breach Rate by Location](notebooks/sql_results/1_sla_breach.png)
+![Revenue by Customer Segment](notebooks/sql_results/2_revenue_segment.png)
+![CLV at Risk by Segment](notebooks/sql_results/3_clv_risk_by_segment.png)
+![Cost of Inaction](notebooks/sql_results/4_cost_of_inaction.png)
+![Seasonal Revenue](notebooks/sql_results/5_seasonal_revenue.png) 
+
+---
 ## The Dashboard
 
 **Live on Tableau Public:**  

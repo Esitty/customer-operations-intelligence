@@ -1,0 +1,21 @@
+customer_id,segment,region,clv,total_tickets,sla_breaches,avg_csat
+13416,Corporate,UK,14895.52,2,2,1.5
+15903,Corporate,UK,14863.57,2,2,2.0
+13478,Corporate,UK,14727.41,4,4,2.0
+12453,Corporate,UK,14710.27,3,3,2.0
+12621,Corporate,Other Europe,14706.94,4,4,1.0
+18246,Corporate,EIRE,14694.37,3,3,2.0
+13139,Corporate,UK,14686.32,3,3,1.33
+16135,Corporate,France,14589.45,4,3,2.0
+15046,Corporate,Netherlands,14574.53,2,2,1.0
+13134,Corporate,Germany,14540.98,4,4,1.67
+14149,Corporate,UK,14517.32,2,2,2.0
+13370,Corporate,UK,14516.2,3,3,1.33
+17481,Corporate,UK,14501.33,5,5,2.33
+13086,Corporate,EIRE,14483.46,4,4,2.0
+16943,Corporate,Germany,14476.69,3,2,2.0
+13302,Corporate,Germany,14450.97,3,3,2.0
+14596,Corporate,France,14379.43,3,3,2.33
+17139,Corporate,UK,14376.81,3,2,2.33
+15113,Corporate,UK,14338.03,2,2,2.0
+16038,Corporate,UK,14320.53,3,3,2.0

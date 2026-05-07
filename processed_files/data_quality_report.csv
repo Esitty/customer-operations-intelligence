@@ -1,0 +1,20 @@
+table,metric,before,after,change,action_taken
+transactions,cancellation invoices removed,19494,0,N/A,"Dropped — reversed transactions, not real sales"
+transactions,zero/negative quantity rows,3457,0,N/A,Dropped — no valid transaction without positive quantity
+transactions,zero/negative price rows,2750,0,N/A,Dropped — no valid sale at zero or negative price
+transactions,missing customer_id,236121,0,N/A,"Filled with GUEST — retained for revenue, excluded from customer analysis"
+transactions,missing description,0,0,N/A,Filled with Unknown — description not critical for analysis
+transactions,total rows,1067371,1041670,25701,"Removed 25,701 invalid rows"
+customers,duplicate rows,118,0,N/A,"Dropped — system sync duplicates, would inflate customer counts"
+customers,inconsistent segment labels,660,0,N/A,Standardised to Retail / Corporate / Wholesale
+customers,missing CLV values,475,0,N/A,"Imputed with segment median — new customers, conservative estimate"
+customers,missing region,297,0,N/A,"Filled with Unknown — data migration gap, customer still valid"
+customers,total rows,6060,5942,118,Removed 118 duplicate rows
+tickets,inconsistent category names,6026,0,N/A,Mapped 13 variants to 6 standard categories
+tickets,missing resolution time (abandoned),900,0,N/A,"Flagged as abandoned — excluded from avg resolution, counted in abandonment rate"
+tickets,missing CSAT (non-respondents),3464,3464,N/A,"Retained as null — non-response is a signal, NOT imputed. Response rate analysed separately."
+tickets,total rows,15000,15000,0,No rows dropped — all issues handled by flagging
+operations,inconsistent location name,1,0,N/A,'Location_03' corrected to 'LOC_03' — data entry error in Q2 2010
+operations,missing SLA achievement rate,2,0,N/A,"Imputed with location average — unreported quarters, conservative estimate"
+operations,missing staff count,8,0,N/A,Imputed with median (12.0) — LOC_08 onboarding gap
+operations,total rows,64,64,0,No rows dropped — all issues resolved by correction or imputation

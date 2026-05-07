@@ -1,0 +1,5 @@
+scenario,churn_rate,clv_loss
+10% churn,0.10,574161
+20% churn,0.20,1148322
+30% churn,0.30,1722483
+50% churn,0.50,3030805

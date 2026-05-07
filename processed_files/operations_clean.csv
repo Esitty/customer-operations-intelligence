@@ -1,0 +1,65 @@
+location_id,quarter,region,staff_count,sla_target_days,sla_achievement_rate,inventory_level,ticket_volume_handled,sla_imputed,staff_imputed,sla_status
+LOC_01,2010-Q1,UK,9.0,2.0,0.82,0.92,132,False,False,Compliant
+LOC_02,2010-Q1,UK,12.0,2.0,0.89,0.9,112,False,False,Compliant
+LOC_03,2010-Q1,Germany,3.0,2.0,0.54,0.84,242,False,False,At Risk
+LOC_04,2010-Q1,France,8.0,2.0,0.88,0.77,177,False,False,Compliant
+LOC_05,2010-Q1,Netherlands,8.0,2.0,0.81,0.72,146,False,False,Compliant
+LOC_06,2010-Q1,EIRE,14.0,2.0,0.75,0.7,159,False,False,Compliant
+LOC_07,2010-Q1,Germany,13.0,2.0,0.54,0.77,197,True,False,At Risk
+LOC_08,2010-Q1,France,12.0,2.0,0.93,0.71,170,False,True,Compliant
+LOC_01,2010-Q2,UK,10.0,2.0,0.87,0.87,179,False,False,Compliant
+LOC_02,2010-Q2,UK,12.0,2.0,0.76,0.76,143,False,False,Compliant
+LOC_03,2010-Q2,Germany,4.0,2.0,0.46,0.87,193,False,False,Critical
+LOC_04,2010-Q2,France,17.0,2.0,0.73,0.78,85,False,False,Compliant
+LOC_05,2010-Q2,Netherlands,18.0,2.0,0.92,0.78,87,False,False,Compliant
+LOC_06,2010-Q2,EIRE,17.0,2.0,0.89,0.8,160,False,False,Compliant
+LOC_07,2010-Q2,Germany,10.0,2.0,0.52,0.93,217,False,False,At Risk
+LOC_08,2010-Q2,France,12.0,2.0,0.74,0.76,133,False,True,Compliant
+LOC_01,2010-Q3,UK,15.0,2.0,0.76,0.94,111,False,False,Compliant
+LOC_02,2010-Q3,UK,12.0,2.0,0.95,0.78,107,False,False,Compliant
+LOC_03,2010-Q3,Germany,5.0,2.0,0.52,0.79,295,False,False,At Risk
+LOC_04,2010-Q3,France,8.0,2.0,0.82,0.71,178,False,False,Compliant
+LOC_05,2010-Q3,Netherlands,19.0,2.0,0.79,0.72,156,False,False,Compliant
+LOC_06,2010-Q3,EIRE,17.0,2.0,0.91,0.89,80,False,False,Compliant
+LOC_07,2010-Q3,Germany,9.0,2.0,0.59,0.84,237,False,False,At Risk
+LOC_08,2010-Q3,France,12.0,2.0,0.78,0.72,152,False,True,Compliant
+LOC_01,2010-Q4,UK,11.0,2.0,0.93,0.66,144,False,False,Compliant
+LOC_02,2010-Q4,UK,15.0,2.0,0.83,0.47,174,False,False,Compliant
+LOC_03,2010-Q4,Germany,5.0,2.0,0.48,0.54,278,False,False,Critical
+LOC_04,2010-Q4,France,16.0,2.0,0.93,0.51,112,False,False,Compliant
+LOC_05,2010-Q4,Netherlands,18.0,2.0,0.86,0.48,115,False,False,Compliant
+LOC_06,2010-Q4,EIRE,18.0,2.0,0.85,0.53,112,False,False,Compliant
+LOC_07,2010-Q4,Germany,16.0,2.0,0.58,0.53,303,False,False,At Risk
+LOC_08,2010-Q4,France,12.0,2.0,0.79,0.47,119,False,True,Compliant
+LOC_01,2011-Q1,UK,19.0,2.0,0.92,0.86,159,False,False,Compliant
+LOC_02,2011-Q1,UK,15.0,2.0,0.75,0.92,147,False,False,Compliant
+LOC_03,2011-Q1,Germany,4.0,2.0,0.42,0.7,211,False,False,Critical
+LOC_04,2011-Q1,France,16.0,2.0,0.86,0.82,96,False,False,Compliant
+LOC_05,2011-Q1,Netherlands,19.0,2.0,0.84,0.71,94,False,False,Compliant
+LOC_06,2011-Q1,EIRE,9.0,2.0,0.78,0.87,119,False,False,Compliant
+LOC_07,2011-Q1,Germany,12.0,2.0,0.52,0.72,262,False,False,At Risk
+LOC_08,2011-Q1,France,12.0,2.0,0.75,0.74,143,False,True,Compliant
+LOC_01,2011-Q2,UK,12.0,2.0,0.93,0.78,147,False,False,Compliant
+LOC_02,2011-Q2,UK,14.0,2.0,0.74,0.78,82,False,False,Compliant
+LOC_03,2011-Q2,Germany,4.0,2.0,0.47,0.71,259,False,False,Critical
+LOC_04,2011-Q2,France,8.0,2.0,0.85,0.73,115,False,False,Compliant
+LOC_05,2011-Q2,Netherlands,17.0,2.0,0.9,0.93,140,False,False,Compliant
+LOC_06,2011-Q2,EIRE,10.0,2.0,0.93,0.77,101,False,False,Compliant
+LOC_07,2011-Q2,Germany,11.0,2.0,0.58,0.83,235,False,False,At Risk
+LOC_08,2011-Q2,France,12.0,2.0,0.89,0.74,88,False,True,Compliant
+LOC_01,2011-Q3,UK,14.0,2.0,0.77,0.86,173,False,False,Compliant
+LOC_02,2011-Q3,UK,10.0,2.0,0.78,0.88,82,False,False,Compliant
+LOC_03,2011-Q3,Germany,4.0,2.0,0.57,0.9,202,False,False,At Risk
+LOC_04,2011-Q3,France,17.0,2.0,0.73,0.92,122,False,False,Compliant
+LOC_05,2011-Q3,Netherlands,8.0,2.0,0.86,0.77,102,True,False,Compliant
+LOC_06,2011-Q3,EIRE,11.0,2.0,0.79,0.89,159,False,False,Compliant
+LOC_07,2011-Q3,Germany,11.0,2.0,0.48,0.75,301,False,False,Critical
+LOC_08,2011-Q3,France,12.0,2.0,0.84,0.83,116,False,True,Compliant
+LOC_01,2011-Q4,UK,16.0,2.0,0.82,0.45,121,False,False,Compliant
+LOC_02,2011-Q4,UK,13.0,2.0,0.93,0.49,145,False,False,Compliant
+LOC_03,2011-Q4,Germany,3.0,2.0,0.52,0.59,217,False,False,At Risk
+LOC_04,2011-Q4,France,12.0,2.0,0.94,0.58,124,False,False,Compliant
+LOC_05,2011-Q4,Netherlands,10.0,2.0,0.9,0.65,108,False,False,Compliant
+LOC_06,2011-Q4,EIRE,10.0,2.0,0.87,0.54,174,False,False,Compliant
+LOC_07,2011-Q4,Germany,10.0,2.0,0.53,0.52,186,False,False,At Risk
+LOC_08,2011-Q4,France,12.0,2.0,0.93,0.49,160,False,True,Compliant
